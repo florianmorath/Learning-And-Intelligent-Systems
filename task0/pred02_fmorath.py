@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics import mean_squared_error
 
-df_train = pd.read_csv('/Users/florianmorath/Desktop/Python/task0/task0_sl19d9/train.csv', float_precision = 'round_trip')
-df_test = pd.read_csv('/Users/florianmorath/Desktop/Python/task0/task0_sl19d9/test.csv', float_precision = 'round_trip')
+df_train = pd.read_csv('train.csv', float_precision = 'round_trip')
+df_test = pd.read_csv('test.csv', float_precision = 'round_trip')
 
 def meanOfRowTest(i):
     sum = 0
