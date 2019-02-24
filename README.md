@@ -1,6 +1,6 @@
 # Learning & Intelligent Systems tasks
 
-This repository contains basic machine learning tasks. 
+This repository contains basic machine learning models implemented using scikit-learn.
 
 ## Task 1
 Regression task (supervised).
